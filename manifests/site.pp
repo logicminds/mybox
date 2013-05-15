@@ -75,8 +75,19 @@ node default {
   include vagrant
   include colloquy
   include spotify
-  include osx
   include googledrive
+ # include intellij
+  include java
+  include textwrangler
+  include github_for_mac
+  include dropbox
+  include adium
+  include xquartz
+  include transmit
+  include skype
+  include chrome
+  include firefox
+  include wget
   # common, useful packages
   package {
     [
